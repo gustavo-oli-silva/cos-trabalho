@@ -5,7 +5,7 @@ set -e
 # Script de restart rápido: derruba containers e volumes e sobe novamente.
 # Uso: ./scripts/restart.sh [--no-cache] [--prune] [--file docker-compose.prod.yml]
 
-COMPOSE_FILE="docker-compose.prod.yml"
+COMPOSE_FILE="docker-compose.yml"
 NO_CACHE=false
 PRUNE_IMAGES=false
 
