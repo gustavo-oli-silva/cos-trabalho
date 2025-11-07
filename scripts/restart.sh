@@ -3,7 +3,7 @@
 set -e
 
 # Script de restart rápido: derruba containers e volumes e sobe novamente.
-# Uso: ./scripts/restart.sh [--no-cache] [--prune] [--file docker-compose.prod.yml]
+# Uso: ./scripts/restart.sh [--no-cache] [--prune] [--file docker-compose.yml]
 
 COMPOSE_FILE="docker-compose.yml"
 NO_CACHE=false
@@ -24,7 +24,7 @@ while [[ $# -gt 0 ]]; do
       shift 2
       ;;
     *)
-      echo "Uso: $0 [--no-cache] [--prune] [--file docker-compose.prod.yml]"
+      echo "Uso: $0 [--no-cache] [--prune] [--file docker-compose.yml]"
       exit 1
       ;;
   esac
