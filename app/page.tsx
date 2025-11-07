@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-zinc-50 p-6">
       <div className="w-full max-w-md bg-white rounded-lg p-6 shadow-md">
-        <h1 className="text-2xl font-bold text-center mb-4">Jogo da Velha</h1>
+        <h1 className="text-2xl font-bold text-center mb-4">Jogo da Velha 2</h1>
 
         <div className="text-center mb-4">
           {winner ? (
